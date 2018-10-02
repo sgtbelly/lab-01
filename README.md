@@ -7,10 +7,22 @@
 * Use this file to "greet" and perform math operations using the imported functions from the 2 modules
 * `console.log()` the return values
 
+### Arithmetic Module
+
 #### Write Arithmetic Module Tests
 * Use the faker module to randomize input
 * Test each method for proper use (invoked with number arguments)
 * Test each method for improper use (invoked with one or more non-number arguments)
+
+#### Add features to the arithmetic module
+* Add support for multiply and divide (be careful to not divide by zero!)
+* Refactor the add, subtract, multiply to allow for an array of params so that you can do deeper calculations
+
+#### Refactor the arithmetic module
+* DRY the code by externalizing any type checking or argument validation from your methods
+
+---
+
 
 ### Greet Module
 Create a NodeJS module in the `lib` directory named `greet.js`.  This module should export a single function.
@@ -24,9 +36,6 @@ Create a NodeJS module in the `lib` directory named `greet.js`.  This module sho
 * Write a test the expects the greet module to return `'hello world'`
   * This should happen when invoked with `'world'` as the first argument
 
-### Stretch Goals
-* Refactor the arithmetic module to support multiply and divide (be careful to not divide by zero!)
-* Refactor the arithmetic module to allow for an array of params so that you can do deeper calculations
 
 ### Documentation
 In your README.md file, describe the exported values of each module defined in your `lib` directory. Every function description should include it's airty (expected number of parameters), the expected data for each parameter (data-type and limitations), and the expected output behavior (for both valid and invalid use). Feel free to include any additional information that you would like.
