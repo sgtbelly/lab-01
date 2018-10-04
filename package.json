@@ -3,12 +3,30 @@
   "version": "0.0.1",
   "description": "this will be sooooo cool",
   "main": "index.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "author": "james denton",
+  "license": "MIT",
   "dependencies": {
     "eslint": "^5.6.1",
     "faker": "^4.1.0",
+    "watchman": "^1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
     "jest": "^23.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgtbelly/lab-01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sgtbelly/lab-01/issues"
+  },
+  "homepage": "https://github.com/sgtbelly/lab-01#readme"
 }
