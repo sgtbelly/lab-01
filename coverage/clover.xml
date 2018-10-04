@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1538631421757" clover="3.2.0">
+  <project timestamp="1538631421757" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4" elements="33" coveredelements="33" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1">
+      <file name="arithmetic.js" path="/Users/jamesdenton/codefellows/401/lab-01/lib/arithmetic.js">
+        <metrics statements="13" coveredstatements="13" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
