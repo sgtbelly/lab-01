@@ -6,5 +6,7 @@
   "scripts": {},
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
 }
