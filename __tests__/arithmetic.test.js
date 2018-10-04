@@ -14,7 +14,7 @@ describe('arithmetic.add', () => {
   while(c === Number || d === Number) {
     c = faker.random.alphaNumeric();
     d = faker.random.alphaNumeric();
-  };
+  }
 
   it('return a+b', () => {
     let number = arithmetic.add(a, b);
@@ -149,9 +149,9 @@ describe('arithmetic.divide', () => {
   let proA = a / b;
 
   if (a === '0' || b === '0') {
-    a = faker.random.number
-    b = faker.random.number
-  };
+    a = faker.random.number;
+    b = faker.random.number;
+  }
 
   it('return a/b', () => {
     let number = arithmetic.divide(a,b);
